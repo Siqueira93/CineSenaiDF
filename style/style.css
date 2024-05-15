@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap);
+}
+
+
+/* PRIMEIRA PAGINA */
+
+/* titulo */
+.tituloh2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+.tituloh2 li{
+    list-style: none;
+}
+
+
+/* mudança de fonte geral */
+body{
+    font-family: Ubuntu;
+}
+
+.container-fluid {
+    height: 50px;
+}
+
+/* separa home da logo */
+.collapse {
+    margin-left: 50px;
+    
+}
+
+/* separando home/filmes/pagamento */
+.navbar-nav {
+    gap: 20px;
+}
+
+/* definindo o tamanho do banner e o carousel */
+.carousel-item {
+    height: 60vh;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.imgbanner{
+    height: 60vh;
+    border-radius: 10px;
+}
+
+.infobanner {
+    background-color: transparent;
+}
+
+
+/* legenda do banner */
+.carousel-caption {
+    background-color: rgba(128, 128, 128, 0.233);
+    font-size: 20pt;
+}
+
+/* editando o footer */
+.rodape {
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+#siga{
+    text-decoration: none;
+
+}
+
+
+/* PAGINA 2 - FILMES */
+
+
+
+/* PAGINA 3 - PAGAMENTO */
