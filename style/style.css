@@ -72,8 +72,6 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: absolute;
-    bottom: 0;
     color: white;
 }
 
@@ -84,7 +82,59 @@ body{
 
 
 /* PAGINA 2 - FILMES */
+.cartaz{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
+}
+
+.banner img{
+    width: 100%;
+    height: 60vh;
+}
+
+.banner {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex-direction: column;
+    display: flex;
+}
+
+.banner:hover {
+    background-color: #0057b32c;
+}
+
+.informacoes {
+    display: none;
+    background-color: white;
+    color: #333;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    text-align: center;
+}
+
+.informacoes button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.informacoes button:hover {
+    background-color: #0056b3;
+}
 
 
 /* PAGINA 3 - PAGAMENTO */
