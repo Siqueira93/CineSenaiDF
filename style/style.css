@@ -96,18 +96,17 @@ body{
 }
 
 .banner {
+    background-color: #007bff;
     color: white;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s;
-    flex-direction: column;
-    display: flex;
+    transition: 0.3s;
 }
 
 .banner:hover {
-    background-color: #0057b32c;
+    background-color: #0056b3;
 }
 
 .informacoes {
@@ -118,8 +117,10 @@ body{
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 100px;
     text-align: center;
+    margin-top: 20px;
+    width: 80%;
+    max-width: 600px;
 }
 
 .informacoes button {
@@ -129,12 +130,43 @@ body{
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    transition: 0.3s;
+    margin-top: 10px;
 }
 
 .informacoes button:hover {
     background-color: #0056b3;
 }
-
-
+/* ASSENTOS */
+.cinema {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.tela {
+    width: 80%;
+    height: 50px;
+    background-color: #ccc;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    line-height: 50px;
+}
+.seats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+}
+.seat {
+    width: 30px;
+    height: 30px;
+    background-color: #444;
+    margin: 5px;
+    cursor: pointer;
+}
+.seat.selected {
+    background-color: #6c5ce7;
+}
 /* PAGINA 3 - PAGAMENTO */
