@@ -9,7 +9,7 @@ function fecharInformacoes() {
 
 document.addEventListener("DOMContentLoaded", () => {
     const seatsContainer = document.querySelector(".seats");
-    const totalSeats = 100;
+    const totalSeats = 50;
 
     for (let i = 0; i < totalSeats; i++) {
         const seat = document.createElement("div");
